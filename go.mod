@@ -1,6 +1,6 @@
 module github.com/peterhellberg/butts-service
 
-go 1.23.4
+go 1.23
 
 require github.com/nats-io/nats.go v1.37.0
 
