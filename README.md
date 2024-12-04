@@ -7,6 +7,12 @@
 
 ## Usage
 
+> [!TIP]
+> Running NATS with JetStream enabled under docker can be done like so:
+> `docker pull nats:latest`
+> and then:
+> `docker run --rm -it --name nats-server -d -p 4222:4222 nats -js`
+
 If you have a NATS Server (with JetStream :rocket: enabled) on `localhost:4222` then:
 
 ```
