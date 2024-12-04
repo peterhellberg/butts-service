@@ -1,9 +1,12 @@
 # butts-service :peach:
 
+An example of using [NATS](https://nats.io/) [JetStream](https://docs.nats.io/nats-concepts/jetstream)
+[Key/Value Store](https://docs.nats.io/nats-concepts/jetstream/key-value-store)
+and [Micro](https://github.com/nats-io/nats.go/tree/main/micro#nats-micro)
+
 ## Requirements
 
 - [Go](https://go.dev/)
-- [NATS](https://nats.io/)
 
 ## Usage
 
