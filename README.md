@@ -15,6 +15,8 @@ and [Micro](https://github.com/nats-io/nats.go/tree/main/micro#nats-micro)
 > `docker pull nats:latest`
 > and then:
 > `docker run --rm -it --name nats-server -d -p 4222:4222 nats -js`
+>
+> If you just want to use `go` then `go run github.com/nats-io/nats-server/v2@v2.10.22 -js`
 
 If you have a NATS Server (with JetStream :rocket: enabled) on `localhost:4222` then:
 
