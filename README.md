@@ -14,9 +14,13 @@ and [Micro](https://github.com/nats-io/nats.go/tree/main/micro#nats-micro)
 > Running NATS with JetStream enabled under docker can be done like so:
 > `docker pull nats:latest`
 > and then:
-> `docker run --rm -it --name nats-server -d -p 4222:4222 nats -js`
+> `docker run --rm --name nats-server -d -p 4222:4222 nats -js`
 >
-> If you just want to use `go` then `go run github.com/nats-io/nats-server/v2@v2.10.22 -js`
+> If you want persistent storage then you can do something like this instead:
+> 
+> `docker run --rm --name nats-server -d -p 4222:4222 -v nats:/data nats -js -sd /data`
+>
+> If you just want to use `go` then `go run github.com/nats-io/nats-server/v2@v2.12.4 -js`
 
 If you have a NATS Server (with JetStream :rocket: enabled) on `localhost:4222` then:
 
